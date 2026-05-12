@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .in{
+    background-color: black;
+    width: 101.5%;
+    height: 100vh;
+    color: white;
+    margin: -22px;
+}
+h1{
+    margin-bottom: 50px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+}
+.Together{
+    color: aqua;
+}
+.wrapper3 h1{
+ display: flex;
+ text-align: center;
+}
+h2{
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+ p{
+    color: white;
+    margin-left: 50px;
+}
+.gmail{
+    margin-left: 50px;
+}
+.phone{
+    display: flex;
+    margin-left: 50px;
+}
+.wrapper2{
+    flex: 1;
+    
+}
+#contact-from{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+
+}
+#contact-from input,
+#contact-from textarea{
+    background-color: rgb(37, 35, 35);
+    border: 1px solid gray;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+#contact-from textarea{
+    min-height: 120px;
+    resize: none;
+}
+#contact-from button{
+    background-color: aquamarine;
+    font-weight: bold;
+}
+#contact-from button:hover{
+    background-color: aqua;
+}
+.in{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper3,.wrapper2{
+     flex: 1;
+}
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="in">
+        
+        <div class="wrapper3">
+            <h1>Get In <span class="Together">Touch</span></h1>
+            <h2>Let's Work Together</h2>
+            <p>I'm always interested in new opportunities and exciting projects. Whether you <br>
+                 have a question or just want to say hi, feel free to reach out!</p>
+            <span class="gmail">abubakar548222@gmail.com</span>
+            <span class="phone">07072548222</span>
+        </div>
+        <div class="wrapper2">
+        <form id="contact-from" action="dashboard.asp" method="post">
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="Your Name">
+            <label for="email">Email</label>
+            <input type="text" name="email" placeholder="Your Email ">
+            <label for="message">Message</label>
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button>send Message</button> 
+        </form>
+
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+</html>
